@@ -44,14 +44,14 @@ Partial Class frmConsultaLibros
         lblCategoria.AutoSize = True
         lblCategoria.Location = New Point(6, 4)
         lblCategoria.Name = "lblCategoria"
-        lblCategoria.Size = New Size(41, 15)
+        lblCategoria.Size = New Size(58, 15)
         lblCategoria.TabIndex = 0
-        lblCategoria.Text = "Label1"
+        lblCategoria.Text = "Categoria"
         ' 
         ' cboCategoria
         ' 
         cboCategoria.FormattingEnabled = True
-        cboCategoria.Location = New Point(53, 1)
+        cboCategoria.Location = New Point(70, 1)
         cboCategoria.Name = "cboCategoria"
         cboCategoria.Size = New Size(121, 23)
         cboCategoria.TabIndex = 1
@@ -72,14 +72,14 @@ Partial Class frmConsultaLibros
         ssEstado.Location = New Point(0, 428)
         ssEstado.Name = "ssEstado"
         ssEstado.Size = New Size(800, 22)
+        ssEstado.SizingGrip = False
         ssEstado.TabIndex = 3
-        ssEstado.Text = "StatusStrip1"
+        ssEstado.Text = "lblRegistros"
         ' 
         ' lblRegistros
         ' 
         lblRegistros.Name = "lblRegistros"
-        lblRegistros.Size = New Size(120, 17)
-        lblRegistros.Text = "ToolStripStatusLabel1"
+        lblRegistros.Size = New Size(0, 17)
         ' 
         ' txtTitulo
         ' 
@@ -176,7 +176,7 @@ Partial Class frmConsultaLibros
         Controls.Add(cboCategoria)
         Controls.Add(lblCategoria)
         Name = "frmConsultaLibros"
-        Text = "Form1"
+        Text = "Consulta de Libros"
         CType(dgvLibros, ComponentModel.ISupportInitialize).EndInit()
         ssEstado.ResumeLayout(False)
         ssEstado.PerformLayout()
